@@ -1,0 +1,44 @@
+*{
+
+    background-color: #3d0000;
+
+}  
+h1{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 50px;
+    color: #fff;
+    margin-top: 40px;
+}
+h2{
+    text-align: right;
+    color: #fff;
+    margin-right: 30px;
+}
+h4{
+    color: #fff;
+    margin-left: 20px;
+    font-style: bold;
+}
+h3{
+    color: #fff;
+}
+.story{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 45px;
+    text-align: justify;
+
+    
+}
+.story p{
+    font-size: 15px;
+    color: #fff;
+}
+.dot{
+    color: #fff;
+    text-align: center;
+}
+.story p span{
+    text-align: right;
+}

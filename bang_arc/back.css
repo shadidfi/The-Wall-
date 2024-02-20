@@ -1,0 +1,33 @@
+*{
+
+    background-color: #3d0000;
+
+}  
+h1{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 50px;
+    color: #fff;
+    margin-top: 40px;
+}
+h2{
+    text-align: right;
+    color: #fff;
+    margin-right: 30px;
+}
+h4{
+    color: #fff;
+    margin-left: 20px;
+}
+.story{
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 45px;
+    text-align: justify;
+    text-align: center;
+    
+}
+.story p{
+    font-size: 16px;
+    color: #fff;
+}

@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Comic Sans MS;
+}
+section{
+
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background: url(hz.png) no-repeat;
+
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+.container .starting p{
+    text-align: justify;
+    font-size: 25px;
+    margin-top: 45px;
+    margin-left: 35px;
+    margin-right: 35px;
+    font-weight: 500;
+}

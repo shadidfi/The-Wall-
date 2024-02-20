@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    font-weight: 100;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;   
+    background: url(hz.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.shuchipotro{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 100px;
+    margin-left: 30px;
+    margin-right: 30px;
+
+}
+
+
+.likha{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 26px;
+}
+
+.likha1{
+    margin-top: 33px;
+    text-align: center;
+    font-size: 26px;
+    color:brown;
+    margin-bottom: 20px;
+    
+}
+.container .likha h1 {
+    text-decoration: none;
+    color: #833737;
+    margin-left: 0px;
+    letter-spacing: 0.0px;
+    padding: 6px 10px;
+    border-radius: 20px;
+    background-color: #e27e7ea6;
+    transition: 0.3s;
+    transition-property: background;
+    font-weight: 1000;
+    margin-bottom: 10px;
+}
+
+.navigation a{
+
+    text-decoration: none;
+    color: #f59696;
+    margin-left: 15px;
+    letter-spacing: 0.0px;
+    padding: 6px 10px;
+    border-radius: 20px;
+    background-color: #831818;
+    transition: 0.3s;
+    transition-property: background;
+    font-weight: 600;
+}
+
+.navigation a:hover{
+    background: #c01b05;
+    transition: 0.5s;
+}
+
+.container .navigation1 a{
+
+    text-decoration: none;
+    color: #000;
+    margin-left: 150px;
+    letter-spacing: 0.7px;
+    padding:2px 15px;
+    border-radius: 20px;
+    background-color: #cfcfcf;
+    transition: 0.3s;
+    transition-property: background;
+    font-weight: 530;
+
+
+}
+
+.navigation2 a:hover{
+    background: #c01b05;
+    transition: 0.5s;
+}
+.container .navigation2 a{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    text-decoration: none;
+    color: #000;
+    margin-left: 150px;
+    letter-spacing: 0.7px;
+    padding:2px 15px;
+    border-radius: 20px;
+    background-color: #cfcfcf;
+    transition: 0.3s;
+    transition-property: background;
+    font-weight: 530;
+    
+}
+.container .navigation2 p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.navigation1 a:hover{
+    background: #c01b05;
+    transition: 0.5s;
+}
+.bar{
+    background-color: #000;
+
+}
+.bar .rights p{
+    color: aliceblue;
+    text-align: center;
+}
+.navigation p{
+    color: #611616;
+    text-align: -webkit-match-parent ;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: 550;
+    font-size: 20px;
+}
+.navigation1 p{
+    color: #131212;
+    text-align: justify ;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-weight: 550;
+    font-size: 20px;
+}
+.navigation2 p{
+    color: #131212;
+    text-align: justify ;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-weight: 550;
+    font-size: 20px;
+}

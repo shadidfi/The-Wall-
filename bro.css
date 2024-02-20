@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+section{
+
+    width: 115%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background: url(hz0.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+header{
+    position: relative;
+    top: 0;
+    width: 100%;
+    padding: 30px 100px;
+    justify-content: space-between;
+    display: flex;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 1px;
+    
+}
+
+header .navigation a{
+    color: #000;
+    text-decoration: none;
+    font-weight: 500;
+    padding:2px 15px;
+    border-radius: 20px;
+    transition: 0.3s;
+    transition-property: background;
+}
+ header .navigation a:not(:last-child){
+    margin-right: 38px;
+ }
+ header .navigation a:hover{
+    background: #be3309;
+    transition: 0.5s;
+ }
+
+ .content{
+    max-width:650px;
+    margin: 140px auto;
+    align-items: center;
+ }
+
+ .info{
+    align-items: center;
+    margin-top: 30px;
+ }
+
+ .content .info h2{
+    color: #350f03;
+    font-size: 55px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    line-height: 60px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.content .info h3{
+    color: #dc143c;
+    font-weight: 700;
+    font-family: FN Liakot Bangladeshi Unicode;
+    font-size: 55px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    line-height: 60px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+header a{
+    text-decoration: none;
+    font-size: larger;
+    color: #dc143c;
+    
+}
+
+#check{
+    display: none;
+}
+
+.starting h1{
+    padding-bottom: 10px;
+    text-align: center;
+}
+.starting{
+    color: aliceblue;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #000;
+    text-align: justify;
+    width: 115%;
+
+}
